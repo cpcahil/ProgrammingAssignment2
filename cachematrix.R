@@ -14,8 +14,8 @@
 ##
 ## Parameters:      m - a matrix (which defaults to an empty matrix)
 ##
-## Description:     Creates a cached inverse matrix structure used by cachematrix() to 
-##                  record the value of a solved matrix inversion so that it is avialble
+## Description:     Creates a cached inverse matrix structure used by cacheSolve() to 
+##                  record the value of a solved matrix inversion so that it is available
 ##                  for subsequent invocations
 ##
 makeCacheMatrix <- function(m = matrix()) {
